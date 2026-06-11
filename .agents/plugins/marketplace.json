@@ -1,0 +1,20 @@
+{
+  "name": "banu-marketplace",
+  "interface": {
+    "displayName": "BANU 市场"
+  },
+  "plugins": [
+    {
+      "name": "banu-workflow",
+      "source": {
+        "source": "local",
+        "path": "./plugins/banu-workflow"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "工具"
+    }
+  ]
+}
