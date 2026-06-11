@@ -9,7 +9,7 @@
 - `docs/` 项目事实文档
 - `tasks/` 任务状态与复盘文档
 
-## 安装
+## 1.安装
 
 在任意本地仓库里执行：
 
@@ -26,39 +26,7 @@ codex plugin add banu-workflow@banu-marketplace
 codex plugin list --marketplace banu-marketplace
 ```
 
-## 插件内容
-
-插件目录结构如下：
-
-```text
-plugins/banu-workflow/
-├── .codex-plugin/plugin.json
-├── assets/logo.png
-├── skills/web-harness/SKILL.md
-└── templates/
-    ├── AGENTS.md
-    ├── CLAUDE.md
-    ├── docs/
-    │   ├── api.md
-    │   ├── architecture.md
-    │   ├── conventions.md
-    │   └── decisions.md
-    └── tasks/
-        ├── lessons.md
-        ├── review.md
-        └── todo.md
-```
-
-## 适用场景
-
-当你想在一个 Web 或通用代码仓库里快速落地 AI 协作规范时，可以让 Codex 使用 `BANU Workflow`：
-
-- 初始化 `AGENTS.md`、`CLAUDE.md`、`docs/`、`tasks/`
-- 把长期规则、项目事实、任务状态拆开管理
-- 在已有仓库中按最小改动原则合并脚手架
-- 为后续的任务记录和复盘留出固定结构
-
-## 使用方式
+## 2.使用方式
 
 安装插件后，可以直接在 Codex 中这样描述需求：
 
