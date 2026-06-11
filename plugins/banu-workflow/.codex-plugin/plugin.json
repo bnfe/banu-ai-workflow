@@ -1,14 +1,14 @@
 {
   "name": "banu-workflow",
   "version": "0.1.0",
-  "description": "面向 Codex 的 BANU 仓库协作插件，提供多种模板与工作流技能",
+  "description": "面向 Codex 的 BANU 仓库协作插件，提供协作模板与 web-harness 工作流技能",
   "author": {
     "name": "BANU"
   },
   "skills": "./skills/",
   "interface": {
     "displayName": "BANU Workflow",
-    "shortDescription": "面向仓库协作的 BANU 多技能工作流插件",
+    "shortDescription": "面向仓库协作的 BANU 工作流插件",
     "longDescription": "BANU Workflow 是一个面向 Codex 的仓库协作插件，用于帮助团队建立统一的 AI 协作规范、文档结构和任务流程。",
     "developerName": "BANU",
     "category": "工具",
