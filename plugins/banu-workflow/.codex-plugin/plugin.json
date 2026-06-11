@@ -16,7 +16,7 @@
       "仓库协作",
       "模板管理"
     ],
-    "defaultPrompt": "告诉我 BANU Workflow 这个插件提供了哪些技能，并推荐适合当前仓库的用法",
+    "defaultPrompt": "把 BANU Workflow 的协作模板接入当前仓库",
     "brandColor": "#2563EB",
     "composerIcon": "./assets/logo.png",
     "logo": "./assets/logo.png"
