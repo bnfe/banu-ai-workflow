@@ -63,13 +63,13 @@ plugins/banu-workflow/
 安装插件后，可以直接在 Codex 中这样描述需求：
 
 ```text
-把 BANU Workflow 的协作模板接入当前仓库。
+把 BANU Workflow 的协作模板接入当前仓库
 ```
 
 或者：
 
 ```text
-告诉我 BANU Workflow 提供了哪些技能，并推荐适合当前仓库的用法。
+告诉我 BANU Workflow 提供了哪些技能，并推荐适合当前仓库的用法
 ```
 
-`web-harness` skill 会把 `templates/` 里的文件视为基线模板，并按目标仓库的现状进行复制、适配或谨慎合并。
+`web-harness` skill 会把 `templates/` 里的文件视为基线模板，并按目标仓库的现状进行复制或谨慎合并。
