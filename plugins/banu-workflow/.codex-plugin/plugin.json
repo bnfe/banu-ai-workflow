@@ -3,8 +3,11 @@
   "version": "0.1.0",
   "description": "面向 Codex 的 BANU 仓库协作插件，提供协作模板与 web-harness 工作流技能",
   "author": {
-    "name": "BANU"
+    "name": "BANU",
+    "url": "https://github.com/bnfe"
   },
+  "homepage": "https://github.com/bnfe/banu-ai-workflow",
+  "repository": "https://github.com/bnfe/banu-ai-workflow",
   "skills": "./skills/",
   "interface": {
     "displayName": "BANU Workflow",
@@ -16,6 +19,7 @@
       "仓库协作",
       "模板管理"
     ],
+    "websiteURL": "https://github.com/bnfe/banu-ai-workflow",
     "defaultPrompt": "把 BANU Workflow 的协作模板接入当前仓库",
     "brandColor": "#2563EB",
     "composerIcon": "./assets/logo.png",
